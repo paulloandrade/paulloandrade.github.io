@@ -1,46 +1,40 @@
 <!DOCTYPE html>
 <html lang ="pt-br">
-<head>
-  <meta charset="UTF-8"/>
-  <title> Paulo Andrade </title>
-  <style media="screen">
-      body{
-        background-image: url("fundo3.jpg");
-        background-repeat: no-repeat;
-        background-size:100%;
-        bottom: 0;
-        color: black;
-        left: 0;
-        overflow: auto;
-        padding: 3em;
-        position: absolute;
-        right: 0;
-        text-align: center;
-        top: 0;
-      }
-      #minhafoto{
-        text-align: center;
-        border-top-left-radius: 50%;
-      }
-      h1{
-        text-align: center;
-        text-indent: 50px;
-        font-family: "Open Sans Condensed", sans-serif;
-      }
-      h3{
-        text-align: center;
-        text-indent: 50px;
-        font-family: monospace;
-      }
-  </style>
-</head>
-<body>
-<div id = "minhafoto">
-  <img src="eu.JPG"/>
-</div>
-<hgroup>
-  <h1>Paulo Andrade</h1>
-  <h3><em>Em construção...</em></h3>
-</hgroup>
-<body/>
-</html>
+    <head>
+        <meta charset="UTF-8"/>
+        <meta name="description" content="Currículo de Paulo Andrade, estudante do curso de bacharelado em sistemas de informação na UFRPE">
+        <title> Paulo Andrade  </title>
+        <style> 
+            
+            .cabeçalho{
+                height: 100vh;/*com isso ficará sempre com o tamanho da tela */
+                background-image: url("fundo3.jpg");/*imagem de fundo do pagina(site)*/
+                background-attachment: fixed;/*deixa o background com efeito paralax*/
+                background-size: cover;/* cover é para nunca deixar espaço sem imagem*/ 
+            }
+      
+            #minhaFoto img{
+                border-radius: 100px;
+                position: center, relative;
+                bottom: 0 auto;
+            }  
+
+            h1{
+                text-align: relative;
+                text-align: center;
+                font-family: "Open Sans Condensed", sans-serif;
+            }
+      
+        </style>
+    </head>
+
+    <body style="background-color: black">
+        <header class = "cabeçalho">
+            <div id = "minhaFoto">
+                
+                <img src="eu.JPG">
+            </div>
+            <h1> Paulo Andrade <h1/>
+        <header/>    
+    <body/>
+<html/>
