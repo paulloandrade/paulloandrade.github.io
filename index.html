@@ -3,38 +3,39 @@
     <head>
         <meta charset="UTF-8"/>
         <meta name="description" content="Currículo de Paulo Andrade, estudante do curso de bacharelado em sistemas de informação na UFRPE">
-        <title> Paulo Andrade  </title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title> Paulo Andrade </title>
         <style> 
             
-            .cabeçalho{
-                height: 100vh;/*com isso ficará sempre com o tamanho da tela */
-                background-image: url("fundo3.jpg");/*imagem de fundo do pagina(site)*/
-                background-attachment: fixed;/*deixa o background com efeito paralax*/
-                background-size: cover;/* cover é para nunca deixar espaço sem imagem*/ 
+            body{
+                background-color: black;
+            }
+            
+            .header{
+                padding: 20px;
             }
       
-            #minhaFoto img{
-                border-radius: 100px;
-                position: center, relative;
-                bottom: 0 auto;
+            #minhaFoto{
+                position: center;
+                border-radius: 50%;
+                width: 100px;
+                height: 100px;
             }  
 
             h1{
-                text-align: relative;
                 text-align: center;
-                font-family: "Open Sans Condensed", sans-serif;
+                font-family: monospace;
+                color: aquamarine;
             }
       
         </style>
     </head>
 
-    <body style="background-color: black">
-        <header class = "cabeçalho">
-            <div id = "minhaFoto">
-                
-                <img src="eu.JPG">
-            </div>
-            <h1> Paulo Andrade <h1/>
-        <header/>    
+    <body>
+        <div class="header">
+            <img src="fundo3.jpg">
+        <div/>
+        <img src="eu.JPG" alt="Paulo Andrade" id="minhaFoto">   
+        <h1> Paulo Andrade <h1/>
     <body/>
 <html/>
