@@ -1,49 +1,42 @@
-    @import url('https://fonts.googleapis.com/css?family=Major+Mono+Display');
+@import url('https://fonts.googleapis.com/css?family=Major+Mono+Display');                                            
+@import url('https://fonts.googleapis.com/css?family=Poiret+One');
 
-
-        body{
-            background-color: rgb(34, 34, 34);
-
-
-        }
-
-        .minhaFoto{
-              border-radius: 50%;
-              width:150px;
-              height: 150px;
-              overflow: hidden;
-              border:3px solid #FFD700;
-              position: relative;
-              display: flex;
-              margin: auto;
+body{
+    background-color: rgb(34, 34, 34);
 
 
 
+}
 
-        }  
-
-        .minhaFoto img{
-            margin: auto;
-            width: 110%;
-            margin-top: -5%;
-            
+.foto{
 
 
-        }
+}
 
-        h1{
-            color: #fff;
-            font-family: 'Major Mono Display', monospace;
-            text-align: center;
+.foto img{
+  background-color: #ddd;
+  border-radius: 500%;
+  height: 150px;
+  width: 150px;
+  border:5px solid #FFD700;
+  margin: auto;
+  display: flex;
+}
+
+
+h1{
+color: #fff;
+font-family: 'Major Mono Display', monospace;
+text-align: center;
 
 
 
 
-        }
+}
 
-        h2{
-            color: #fff;
-            font-family: 'Major Mono Display', monospace;
-            text-align: center;
+h2{
+color: #fff;
+font-family: 'Poiret One', cursive;
+text-align: center;
 
-        }
+}
