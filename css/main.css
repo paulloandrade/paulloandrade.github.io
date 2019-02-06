@@ -2,6 +2,12 @@
 @import url('https://fonts.googleapis.com/css?family=Major+Mono+Display');                                            
 @import url('https://fonts.googleapis.com/css?family=Poiret+One');
 
+header, body, footer{
+    /*border: 1px solid grey;
+    margin: 4px;
+    padding: 4px;*/
+}
+
 html{
     
     width: 100%;
@@ -20,7 +26,7 @@ header{
     
 }
 
-.foto{
+.foto{  
     
 }
 
@@ -28,11 +34,14 @@ header{
     
     background-color: #ddd;
     border-radius: 500%;
-    height: 150px;
-    width: 150px;
+    height: 100px;
+    width: 100px;
     border:5px solid #FFD700;
     margin: auto;
     display: flex;
+    
+    
+    
 }
 
 h1{
@@ -60,24 +69,23 @@ footer{
     
     text-align: center;
     color: #fff;
-    position: relative; 
+    position: relative;
     max-width: 800px;
     margin: 0 auto;
-    top: 17rem ;
+    top: 20rem ;
     
 }
-
 
 .fab{
     color: #fff; 
     font-size: 1.4rem;
+    margin: 4px;
 }
-
 
 .copyright{
     color:#fff; 
     font-family: 'Poiret One', cursive;
     font-size: 1.2rem;
+    margin: 4px;
     
 }
-
