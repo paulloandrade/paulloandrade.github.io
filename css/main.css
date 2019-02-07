@@ -1,33 +1,29 @@
 /* FONTS GOOGLE-----*/
-@import url('https://fonts.googleapis.com/css?family=Major+Mono+Display');                                            
-@import url('https://fonts.googleapis.com/css?family=Poiret+One');
+/* --- */
 
-header, body, footer{
-    /*border: 1px solid grey;
-    margin: 4px;
-    padding: 4px;*/
-}
 
 html{
     
-    width: 100%;
-    height: 100%;
+    background-color: rgb(34, 34, 34);
+    font-family: "europa",sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    text-align: center;
+    
 }
 
 body{
-    
-    background-color: rgb(34, 34, 34);
-
-
-
+    margin: auto;
 }
 
 header{
     
 }
 
-.foto{  
-    
+
+.foto{
+    margin: 8px auto;
+    display: flex;
 }
 
 .foto img{
@@ -37,55 +33,41 @@ header{
     height: 100px;
     width: 100px;
     border:5px solid #FFD700;
-    margin: auto;
+    margin: 8px auto;
     display: flex;
     
     
     
 }
 
-h1{
-    color: #fff;
-    font-family: 'Poiret One', cursive;
-    text-align: center;
+h1,h2,h3{
+    color: snow;
     font-size: 150%;
-
-
-
-}
-
-h2{
-   color: #fff;
-    font-family: 'Poiret One', cursive;
+    font-family: "europa",sans-serif;
+    font-style: normal;
+    font-weight: 300;
     text-align: center;
 
-}
 
-nav{
-    
 }
 
 footer{
     
-    text-align: center;
-    color: #fff;
+    color: snow;
     position: relative;
-    max-width: 800px;
-    margin: 0 auto;
-    top: 20rem ;
+    top: 16rem ;
+
     
 }
 
-.fab{
-    color: #fff; 
-    font-size: 1.4rem;
+.fab{ 
+    color: snow;
+    font-size: 2.0rem;
     margin: 4px;
 }
 
-.copyright{
-    color:#fff; 
-    font-family: 'Poiret One', cursive;
-    font-size: 1.2rem;
+.copyright{ 
+    font-size: 1.0rem;
     margin: 4px;
     
 }
