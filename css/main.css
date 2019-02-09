@@ -22,11 +22,6 @@ header{
 
 
 .foto{
-    margin: 8px auto;
-    display: flex;
-}
-
-.foto img{
     
     background-color: #ddd;
     border-radius: 500%;
