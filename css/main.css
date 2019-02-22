@@ -1,23 +1,20 @@
-/* FONTS GOOGLE-----*/
-/* --- */
 
 
 html{
     
     background-color: rgb(34, 34, 34);
-    font-family: "europa",sans-serif;
+    font-family: 'Major Mono Display', monospace;
     font-style: normal;
     font-weight: 300;
-    text-align: center;
     
 }
 
 body{
-    margin: auto;
+    
 }
 
 header{
-    
+    margin-bottom: auto;
 }
 
 
@@ -35,23 +32,52 @@ header{
     
 }
 
-h1,h2,h3{
+h1{
     color: snow;
     font-size: 150%;
-    font-family: "europa",sans-serif;
+    font-family: 'Major Mono Display', monospace;
     font-style: normal;
     font-weight: 300;
     text-align: center;
-
-
 }
+
+.container{
+    color: snow;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    font-size: 100%;
+    font-family: 'Major Mono Display', monospace;
+    font-style: normal;
+    font-weight: 300;
+    
+}
+
+.container > coluna1{
+    width: 50%;
+    
+    
+    
+        
+}
+    
+
+.cotainer > coluna2{
+    width: 50%;
+    
+    
+    
+    
+}
+
+
 
 footer{
     
     color: snow;
     position: relative;
-    top: 16rem ;
-
+    margin-top: 10vw;
+    text-align: center;
     
 }
 
@@ -64,5 +90,9 @@ footer{
 .copyright{ 
     font-size: 1.0rem;
     margin: 4px;
+    text-align: center;
+    
+    
+    
     
 }
