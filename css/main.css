@@ -41,6 +41,12 @@ h1{
     text-align: center;
 }
 
+hr{
+    border: solid #FFD700; 
+    width: auto;
+    
+}
+
 .container{
     color: snow;
     width: 100%;
