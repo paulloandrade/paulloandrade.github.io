@@ -23,12 +23,10 @@ img{
 	margin:0 auto;
 	position:relative;
 }
-#connect .facebook, #connect .twitter, #connect .link-us{
+#connect .facebook, #connect .link-us{
 	background:url(../images/icons.gif) no-repeat;
 }
-#contents span.header, #contents h3, #contents ul li, #contents div.blogs span{
-	background:url(../images/interface.gif) no-repeat;
-}
+#contents span.header, #contents h3, #contents ul li, #contents div.blogs
 /** Links **/
 #sidebar{
 	float:left;
