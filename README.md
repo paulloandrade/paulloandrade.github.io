@@ -1,1 +1,0 @@
-https://paulloandrade.github.io/
